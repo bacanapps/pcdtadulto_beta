@@ -323,7 +323,8 @@ and (width : 798px){
 
 .footer-socials a{
 	float:left;
-	margin-left:5px;
+	/*margin-left:5px;*/
+    margin-left:41px;
 	margin-right:5px;
 }
 
