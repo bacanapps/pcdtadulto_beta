@@ -20,9 +20,11 @@ $(document).ready(function(){
 		$(this).parent().find('.wide-item-content').toggle(50);
 		return false;
 	});
-	
+//adjust sidebar width here	
 	var snapper = new Snap({
-	  element: document.getElementById('content')
+	  element: document.getElementById('content'),
+	            maxPosition: 401,
+                minPosition: -401
 	});
 
 	$('.deploy-sidebar').click(function(){
