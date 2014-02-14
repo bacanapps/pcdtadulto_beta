@@ -540,8 +540,9 @@ and (width : 798px){
 	position:absolute;
 	width:14px;
 	height:14px;
-	left:220px;
-	margin-top:23px;
+	/*left:220px;*/
+	left:20px;
+	margin-top:-38px;
 }
 
 .unselected-nav{
