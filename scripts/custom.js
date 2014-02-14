@@ -36,6 +36,16 @@ $(document).ready(function(){
 		}
 		return false;
 	});
+	
+		$('.deploy-sidebar2').click(function(){
+		//$(this).toggleClass('remove-sidebar');
+		if( snapper.state().state=="left" ){
+			snapper.close();
+		} else {
+			snapper.open('left');
+		}
+		return false;
+	});
 
 	
 });

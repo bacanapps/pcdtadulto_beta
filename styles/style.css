@@ -93,6 +93,14 @@ body {
 	background-position:20px 18px;
 }
 
+<!--icon to open menu-->
+.deploy-sidebar2{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#efefef;
+}
+
 .content-title{
 	font-family:'Helvetica', sans-serif;
 	font-size:14px;
@@ -106,7 +114,7 @@ body {
 	margin-top:-35px;
 }
 
-.icon{
+a .icon{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
