@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-  background-color: #fcf0b5; /* for the tint */
+  background-color: #93352b; /* for the tint */
 }
 
 .all-elements{
@@ -79,6 +79,10 @@ body {
 	height:70px;
 }
 
+.fixed-header-clear-index{
+	height:50px;
+}
+
 .header-black{
 	background-color:rgba(0,0,0,0.85);
 	margin-bottom:20px;
@@ -98,7 +102,14 @@ body {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#efefef;
+	background-color:#93352b;
+}
+
+.content-icon{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#93352b;
 }
 
 .content-title{
