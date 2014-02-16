@@ -202,6 +202,7 @@ h3{
 	color:#292929
 }
 
+
 h4{
 	font-size:14px;
 	margin-bottom:10px;
@@ -222,7 +223,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 a{
-	color:#e34e47;
+	/*color:#e34e47;*/
+	color:#93352b;
 }
 
 /*////////////////////////*/
@@ -1239,9 +1241,11 @@ table tr:hover td{
 }
 
 .static-notification-red{
-	background-color:#c0392b;
+	/*background-color:#c0392b;*/
+	background-color:#93352b;
 	color:#FFFFFF;
 	margin-bottom:20px;
+	padding: 20px;
 }
 
 .static-notification-red p{
