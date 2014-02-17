@@ -11,20 +11,17 @@ function init() {
 		gaPlugin = window.plugins.gaPlugin;
 		gaPlugin.init(gaInit, errorHandler, AnalyticsAccount, 10);	
 		
-		alert('start);
 		
 		$(".linkclick").click(function(e){
 			e.preventDefault();
 			var textdata = $(this).html();
 			var intdata = parseInt($(".linkclick").index(this));
-		alert('middle);	
-			
+	
 			gaPlugin.trackEvent(function() {
 				
 				
 			}, errorHandler, "Button", "Click", textdata, intdata);	
 
-		alert('end);	
 
 		});
 	
