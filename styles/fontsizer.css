@@ -15,17 +15,19 @@ body       {  background:#e7e7e7;}
 
 #controls  {  
               padding:5px;
-              width:35px;
+              width:50px;
               background:#333;
               text-align:center;
-              transition:.25s ease-out;}
+              transition:.25s ease-out;
+			   margin-left: 178px;}
 
 #controls a
            {  font-size:24px;
               color:#aaa;
               display:block;
               font-weight:bold;
-              padding: 5px;}
+              padding: 5px;
+			   }
 			  
 
 #controls a:hover
