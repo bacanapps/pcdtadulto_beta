@@ -1,0 +1,53 @@
+<head> 
+    <title>My Page</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+</head> 
+<body> 
+<div class="txtwrapper">
+    <div data-role="page">
+
+        <div data-role="header">
+            <h1>My Title</h1>
+            <a href="#settings" data-icon="gear" data-rel="popup">Settings</a>
+        </div><!-- /header -->
+    
+        <div data-role="content">    
+            <p>Hello world</p>            
+        </div><!-- /content -->
+                
+        <div id="settings" data-role="popup">
+            <div data-role="header">
+                <h1>Settings</h1>
+            </div>
+            <div data-role="content">
+            <div data-role="fieldcontain">
+                <fieldset data-role="controlgroup">
+                    <legend>Font Size</legend>
+                         <input type="radio" name="fontsize" id="small" value="15px" />
+                         <label for="small">Small</label>
+        
+                        <input type="radio" name="fontsize" id="medium" value="20px" checked="checked" />
+                         <label for="medium">Medium</label>
+
+                         <input type="radio" name="fontsize" id="large" value="25px"  />
+                         <label for="large">Large</label>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+    
+    </div><!-- /page -->
+</div>
+
+<script>
+$("input[type='radio']").on( "change", function(event, ui) {
+    $("input[name*=fontsize]:checked").each(function() {
+        $(".txtwrapper").css('font-size', $(this).val());
+    });
+});
+</script>
+
+</body>
