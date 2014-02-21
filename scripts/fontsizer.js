@@ -29,9 +29,9 @@ $(document).ready(function(){
     event.preventDefault();
     $("h3").animate({"font-size":"32px"});
     $("table").animate({"font-size":"18px"});
-    $("p").animate({"font-size":"18px", "line-height":"20px"});
-    $("li").animate({"font-size":"18px", "line-height":"20px"});
-    $("ul").animate({"font-size":"18px", "line-height":"20px"});
+    $("p").animate({"font-size":"18px", "line-height":"22px"});
+    $("li").animate({"font-size":"18px", "line-height":"22px"});
+    $("ul").animate({"font-size":"18px", "line-height":"22px"});
     
   });
   
