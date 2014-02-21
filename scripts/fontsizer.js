@@ -10,6 +10,8 @@ $(document).ready(function(){
     $("h3").animate({"font-size":"16px"});
     $("table").animate({"font-size":"12px"});
     $("p").animate({"font-size":"12px", "line-height":"16px"});
+    $("li").animate({"font-size":"12px", "line-height":"16px"});
+    $("ul").animate({"font-size":"12px", "line-height":"16px"});
     
   });
   
@@ -18,6 +20,8 @@ $(document).ready(function(){
     $("h3").animate({"font-size":"24px"});
     $("table").animate({"font-size":"16px"});
     $("p").animate({"font-size":"14px", "line-height":"20px"});
+    $("li").animate({"font-size":"14px", "line-height":"20px"});
+    $("ul").animate({"font-size":"12px", "line-height":"16px"});
     
   });
   
@@ -26,6 +30,8 @@ $(document).ready(function(){
     $("h3").animate({"font-size":"32px"});
     $("table").animate({"font-size":"18px"});
     $("p").animate({"font-size":"18px", "line-height":"20px"});
+    $("li").animate({"font-size":"18px", "line-height":"20px"});
+    $("ul").animate({"font-size":"18px", "line-height":"20px"});
     
   });
   
