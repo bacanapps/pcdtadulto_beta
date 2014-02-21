@@ -27,7 +27,7 @@ $(document).ready(function(){
   
   $("#large").click(function(event){
     event.preventDefault();
-    $("h3").animate({"font-size":"32px"});
+    $("h3").animate({"font-size":"32px", "line-height":"34px"});
     $("table").animate({"font-size":"18px"});
     $("p").animate({"font-size":"18px", "line-height":"22px"});
     $("li").animate({"font-size":"18px", "line-height":"22px"});
