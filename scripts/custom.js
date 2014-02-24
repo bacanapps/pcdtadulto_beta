@@ -23,8 +23,8 @@ $(document).ready(function(){
 //adjust sidebar width here	maxPosition: 401, minPosition: -401
 	var snapper = new Snap({
 	  element: document.getElementById('content'),
-	            maxPosition: 320,
-                minPosition: -320
+	            maxPosition: 300,
+                minPosition: -300
 	});
 
 	$('.deploy-sidebar').click(function(){
