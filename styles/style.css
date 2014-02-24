@@ -44,8 +44,8 @@ body {
 
 .page-sidebar-scroll{
 	z-index:2;
-	/*width:262px;*/
-	width:400px;
+	/*width:262px;width:400px;*/
+	width:320px;
     overflow: scroll;
     overflow-x: hidden;
    /* -webkit-overflow-scrolling: touch;*/
