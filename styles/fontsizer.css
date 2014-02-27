@@ -15,11 +15,12 @@ body       {  background:#e7e7e7;}
 
 #controls  {  
               padding:5px;
-              width:50px;
+             /* width:50px;*/
               background:#333;
               text-align:center;
               transition:.25s ease-out;
-			   margin-left: 178px;}
+			  /* margin-left: 178px;*/
+			   }
 
 #controls a
            {  font-size:24px;
@@ -54,3 +55,12 @@ table         {  font-size:16px;
 p          {  font-size:16px;
               line-height:20px;}
 
+ul.fontsizer {
+    display: inline-flex;
+	margin-bottom: auto;
+}
+
+li.fontsizer {
+    list-style: none;
+	padding-left: 20px;
+}
