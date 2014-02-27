@@ -63,4 +63,5 @@ ul.fontsizer {
 li.fontsizer {
     list-style: none;
 	padding-left: 20px;
+	display: inline-block;
 }
