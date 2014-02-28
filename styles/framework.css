@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6{
 
 a{
 	/*color:#e34e47;*/
-	color:#93352b;
+	color:#bf2e1a;
 }
 
 /*////////////////////////*/
@@ -832,15 +832,16 @@ a{
 
 table {
 	font-size:12px;
-	text-shadow: 1px 1px 0px #fff;
-	background:#eaebec;
-	border:#ccc 1px solid;
+	/* text-shadow: 1px 1px 0px #fff; 
+	background:#eaebec;*/
+	background:#f2cebc;
+	border:#bf2e1a 1px solid;
 	margin-bottom:15px;
 }
 
 table th {
 	padding:21px 25px 22px 25px;
-	border-bottom:1px solid #e0e0e0;
+	border-bottom:1px solid #bf2e1a;
 }
 
 table th:first-child{
@@ -861,13 +862,13 @@ table tr td:first-child{
 
 table tr td {
 	padding:14px;
-	border-top: 1px solid #ffffff;
-	border-bottom:1px solid #e0e0e0;
-	border-left: 0px solid #e0e0e0;
+	border-top: 1px solid #bf2e1a;
+	border-bottom:1px solid #bf2e1a;
+	border-left: 0px solid #bf2e1a;
 }
 
 table tr.even td{
-	background: #efefef;
+	background: #f2cebc;
 }
 
 table tr:last-child td{
