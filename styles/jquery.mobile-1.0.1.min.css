@@ -9,11 +9,11 @@
 	font-weight: bold;
 	text-shadow: 0 -1px 1px #000;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#111));
-	background-image: -webkit-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -moz-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -ms-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -o-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: linear-gradient(#BF2E1A, #BF2E1A)
+	background-image: -webkit-linear-gradient(#93352b, #93352b);
+	background-image: -moz-linear-gradient(#93352b, #93352b);
+	background-image: -ms-linear-gradient(#93352b, #93352b);
+	background-image: -o-linear-gradient(#93352b, #93352b);
+	background-image: linear-gradient(#93352b, #93352b)
 }
 .ui-bar-a, .ui-bar-a input, .ui-bar-a select, .ui-bar-a textarea, .ui-bar-a button {
 	font-family: Helvetica, Arial, sans-serif
@@ -59,19 +59,19 @@
 	font-weight: normal;
 background: #f7f6ec; /* Old browsers */
 
-background: -moz-linear-gradient(top,  #f7f6ec 0%, #f7f6ec 50%, #ebc8bc 60%, #bf2e1a 100%); /* FF3.6+ */
+background: -moz-linear-gradient(top,  #f7f6ec 0%, #f7f6ec 50%, #ebc8bc 60%, #93352b 100%); /* FF3.6+ */
 
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f6ec), color-stop(50%,#f7f6ec), color-stop(60%,#ebc8bc), color-stop(100%,#bf2e1a)); /* Chrome,Safari4+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f6ec), color-stop(50%,#f7f6ec), color-stop(60%,#ebc8bc), color-stop(100%,#93352b)); /* Chrome,Safari4+ */
 
-background: -webkit-linear-gradient(top,  #f7f6ec 0%,#f7f6ec 50%,#ebc8bc 60%,#bf2e1a 100%); /* Chrome10+,Safari5.1+ */
+background: -webkit-linear-gradient(top,  #f7f6ec 0%,#f7f6ec 50%,#ebc8bc 60%,#93352b 100%); /* Chrome10+,Safari5.1+ */
 
-background: -o-linear-gradient(top,  #f7f6ec 0%,#f7f6ec 50%,#ebc8bc 60%,#bf2e1a 100%); /* Opera 11.10+ */
+background: -o-linear-gradient(top,  #f7f6ec 0%,#f7f6ec 50%,#ebc8bc 60%,#93352b 100%); /* Opera 11.10+ */
 
-background: -ms-linear-gradient(top,  #f7f6ec 0%,#f7f6ec 50%,#ebc8bc 60%,#bf2e1a 100%); /* IE10+ */
+background: -ms-linear-gradient(top,  #f7f6ec 0%,#f7f6ec 50%,#ebc8bc 60%,#93352b 100%); /* IE10+ */
 
-background: linear-gradient(to bottom,  #f7f6ec 0%,#f7f6ec 50%,#ebc8bc 60%,#bf2e1a 100%); /* W3C */
+background: linear-gradient(to bottom,  #f7f6ec 0%,#f7f6ec 50%,#ebc8bc 60%,#93352b 100%); /* W3C */
 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6ec', endColorstr='#bf2e1a',GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6ec', endColorstr='#93352b',GradientType=0 ); /* IE6-9 */
 }
 
 
@@ -238,12 +238,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6ec', end
 	font-weight: bold;
 	color: #fff;
 /*	text-shadow: 0 -1px 1px #fff;   */
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#BF2E1A), to(#4b88b6));
-	background-image: -webkit-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -moz-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -ms-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -o-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: linear-gradient(#BF2E1A, #BF2E1A)
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#93352b), to(#4b88b6));
+	background-image: -webkit-linear-gradient(#93352b, #93352b);
+	background-image: -moz-linear-gradient(#93352b, #93352b);
+	background-image: -ms-linear-gradient(#93352b, #93352b);
+	background-image: -o-linear-gradient(#93352b, #93352b);
+	background-image: linear-gradient(#93352b, #93352b)
 }
 .ui-btn-hover-b a.ui-link-inherit {
 	color: #fff
@@ -254,12 +254,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6ec', end
 	font-weight: bold;
 	color: #fff;
 	text-shadow: 0 -1px 1px #225377;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#BF2E1A), to(#4b88b6));
-	background-image: -webkit-linear-gradient(#F7F6EC, #BF2E1A);
-	background-image: -moz-linear-gradient(#F7F6EC, #BF2E1A);
-	background-image: -ms-linear-gradient(#F7F6EC, #BF2E1A);
-	background-image: -o-linear-gradient(#F7F6EC, #BF2E1A);
-	background-image: linear-gradient(#F7F6EC, #BF2E1A)
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#93352b), to(#4b88b6));
+	background-image: -webkit-linear-gradient(#F7F6EC, #93352b);
+	background-image: -moz-linear-gradient(#F7F6EC, #93352b);
+	background-image: -ms-linear-gradient(#F7F6EC, #93352b);
+	background-image: -o-linear-gradient(#F7F6EC, #93352b);
+	background-image: linear-gradient(#F7F6EC, #93352b)
 }
 .ui-btn-down-b a.ui-link-inherit {
 	color: #fff
@@ -320,7 +320,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f6ec', end
 }
 .ui-body-c .ui-link {
 color: #333; 
-/*		color: #BF2E1A;*/	
+/*		color: #93352b;*/	
 	font-weight: bold
 }
 .ui-body-c .ui-link:hover {
@@ -354,7 +354,7 @@ color: #333;
 	font-weight: bold;
 	color: #101010;
 	text-shadow: 0 1px 1px #fff;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#BF2E1A), to(#BF2E1A));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#93352b), to(#93352b));
 	background-image: -webkit-linear-gradient(#eee, #fdfdfd);
 	background-image: -moz-linear-gradient(#eee, #fdfdfd);
 	background-image: -ms-linear-gradient(#eee, #fdfdfd);
@@ -370,12 +370,12 @@ color: #333;
 	font-weight: bold;
 	color: #111;
 	text-shadow: 0 1px 1px #fff;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#BF2E1A), to(#4b88b6));
-	background-image: -webkit-linear-gradient(#F7F6EC, #BF2E1A);
-	background-image: -moz-linear-gradient(#F7F6EC, #BF2E1A);
-	background-image: -ms-linear-gradient(#F7F6EC, #BF2E1A);
-	background-image: -o-linear-gradient(#F7F6EC, #BF2E1A);
-	background-image: linear-gradient(#F7F6EC, #BF2E1A)
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#93352b), to(#4b88b6));
+	background-image: -webkit-linear-gradient(#F7F6EC, #93352b);
+	background-image: -moz-linear-gradient(#F7F6EC, #93352b);
+	background-image: -ms-linear-gradient(#F7F6EC, #93352b);
+	background-image: -o-linear-gradient(#F7F6EC, #93352b);
+	background-image: linear-gradient(#F7F6EC, #93352b)
 }
 .ui-btn-down-c a.ui-link-inherit {
 	color: #2f3e46
@@ -469,12 +469,12 @@ color: #333;
 	color: #222;
 	cursor: pointer;
   /*  text-shadow: 0 1px 1px #fff; */
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#BF2E1A), to(#BF2E1A));
-	background-image: -webkit-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -moz-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -ms-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -o-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: linear-gradient(#BF2E1A, #BF2E1A)
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#93352b), to(#93352b));
+	background-image: -webkit-linear-gradient(#93352b, #93352b);
+	background-image: -moz-linear-gradient(#93352b, #93352b);
+	background-image: -ms-linear-gradient(#93352b, #93352b);
+	background-image: -o-linear-gradient(#93352b, #93352b);
+	background-image: linear-gradient(#93352b, #93352b)
 }
 .ui-btn-hover-d a.ui-link-inherit {
 	color: #222
@@ -485,12 +485,12 @@ color: #333;
 	font-weight: bold;
 	color: #fff;
 	/* text-shadow: 0 -1px 1px #FFFFFF; */
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#BF2E1A), to(#BF2E1A));
-	background-image: -webkit-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -moz-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -ms-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: -o-linear-gradient(#BF2E1A, #BF2E1A);
-	background-image: linear-gradient(#BF2E1A, #BF2E1A)
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#93352b), to(#93352b));
+	background-image: -webkit-linear-gradient(#93352b, #93352b);
+	background-image: -moz-linear-gradient(#93352b, #93352b);
+	background-image: -ms-linear-gradient(#93352b, #93352b);
+	background-image: -o-linear-gradient(#93352b, #93352b);
+	background-image: linear-gradient(#93352b, #93352b)
 }
 .ui-btn-down-d a.ui-link-inherit {
 	color: #111

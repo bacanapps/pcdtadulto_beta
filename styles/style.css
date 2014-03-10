@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-  background-color: #bf2e1a; /* for the tint */
+  background-color: #93352b; /* for the tint */
 }
 
 .all-elements{
@@ -26,7 +26,7 @@ body {
 }
 
 .page-sidebar{
-	/*background-color: #BF2E1A;*/
+	/*background-color: #93352b;*/
 	background-image:url(../images/misc/menu-bg.png);
 	background-repeat:repeat;
 	background-size:75px 75px;
@@ -102,14 +102,14 @@ body {
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#bf2e1a;
+	background-color:#93352b;
 }
 
 .content-icon{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	background-color:#bf2e1a;
+	background-color:#93352b;
 }
 
 .content-title{

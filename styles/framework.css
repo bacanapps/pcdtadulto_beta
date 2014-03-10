@@ -122,8 +122,8 @@ tr {
 }
 
 td {
-	border-right: 1px solid #bf2e1a;
-	border-bottom: 1px solid #bf2e1a;
+	border-right: 1px solid #93352b;
+	border-bottom: 1px solid #93352b;
 	text-align: center;
 	color: #231f20;
 	padding-top: 9px;
@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6{
 
 a{
 	/*color:#e34e47;*/
-	color:#bf2e1a;
+	color:#93352b;
 }
 
 /*////////////////////////*/
@@ -835,13 +835,13 @@ table {
 	/* text-shadow: 1px 1px 0px #fff; 
 	background:#eaebec;*/
 	background:#f2cebc;
-	border:#bf2e1a 1px solid;
+	border:#93352b 1px solid;
 	margin-bottom:15px;
 }
 
 table th {
 	padding:21px 25px 22px 25px;
-	border-bottom:1px solid #bf2e1a;
+	border-bottom:1px solid #93352b;
 }
 
 table th:first-child{
@@ -862,9 +862,9 @@ table tr td:first-child{
 
 table tr td {
 	padding:14px;
-	border-top: 1px solid #bf2e1a;
-	border-bottom:1px solid #bf2e1a;
-	border-left: 0px solid #bf2e1a;
+	border-top: 1px solid #93352b;
+	border-bottom:1px solid #93352b;
+	border-left: 0px solid #93352b;
 }
 
 table tr.even td{
@@ -1246,13 +1246,13 @@ table tr:hover td{
 	/*background-color:#c0392b;
 	background-color:#93352b;*/
 	background-color:#f2cebc;
-	color:#bf2e1a;
+	color:#93352b;
 	margin-bottom:20px;
 	padding: 20px;
 	width:80%;
 	margin-left:auto;
 	margin-right:auto;
-	border:solid 1px #bf2e1a;
+	border:solid 1px #93352b;
 	
 }
 
