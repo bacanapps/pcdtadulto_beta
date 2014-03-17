@@ -383,7 +383,7 @@ and (width : 798px){
 
 /***** start debug***
 
-
+****end debug**/
 .round-decoration{
 	width:80px;
 	border-radius:80px;
@@ -456,7 +456,7 @@ and (width : 798px){
 	background-color:#191919;
 	border-bottom:solid 1px rgba(255,255,255,0.1);
 }
-****end debug**/
+
 
 /*Sidebar Navigation*/
 
