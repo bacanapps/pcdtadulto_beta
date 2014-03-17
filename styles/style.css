@@ -459,7 +459,7 @@ and (width : 798px){
 ****end debug**/
 
 /*Sidebar Navigation*/
-/****** start debug
+
 .sidebar-breadcrumb{
 	background-color:rgba(0,0,0,0.1);
 }
@@ -653,13 +653,13 @@ and (width : 798px){
 	border-bottom:none!important;
 }
 
-*** end debug/
+
 
 /*/////////////////////*/
 /*Sidebar Notifications*/
 /*/////////////////////*/
 
-/*
+
 
 .sidebar-updates{
 	margin-top:20px;
