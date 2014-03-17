@@ -39,7 +39,7 @@ body {
 	overflow:hidden;
 	position:fixed;
 }
-/* samsung debug 3
+
 .page-sidebar-scroll{
 	z-index:2;
 	width:300px;
@@ -48,7 +48,7 @@ body {
 	height:100%;
 }
 
-***/
+
 
 
 /*Content Controls*/
@@ -447,7 +447,7 @@ and (width : 798px){
 }
 
 .sidebar-decoration{
-	/*width:260px;
+	/*width:260px;*/
 	width:400px;
 	height:2px;
 	background-color:#191919;

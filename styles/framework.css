@@ -64,7 +64,7 @@ p {
 	font-size:12px;
 	letter-spacing:0px;
 }
-/*// samsung debug
+/*** samsung debug
 p > a {
 	display: inline;
 	text-decoration: none;
