@@ -24,7 +24,7 @@ body {
 	padding-bottom:15px;
 
 }
-
+***/
 .page-sidebar{
 	background-image:url(../images/misc/menu-bg.png);
 	background-repeat:repeat;
@@ -49,7 +49,7 @@ body {
 }
 
 
-***/
+
 
 /*Content Controls*/
 
@@ -381,9 +381,6 @@ and (width : 798px){
 /*//////////////*/
 
 
-/***** start debug***
-
-****end debug**/
 .round-decoration{
 	width:80px;
 	border-radius:80px;
