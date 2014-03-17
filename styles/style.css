@@ -663,7 +663,7 @@ and (width : 798px){
 /*Sidebar Notifications*/
 /*/////////////////////*/
 
-
+/*
 
 .sidebar-updates{
 	margin-top:20px;
@@ -719,7 +719,7 @@ and (width : 798px){
 
 
 /*Wide Portfolio*/
-
+/***** start samsung debug
 .wide-folio{
 	margin-top:-17px;
 	margin-bottom:20px;
@@ -851,6 +851,6 @@ and (width : 798px){
 
 
 
-****/
+*end samsung debug***/
 
 
