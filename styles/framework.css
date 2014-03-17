@@ -1,13 +1,13 @@
 /*Epsilon Framework Version 2*/
 /*Framework author: Enabled*/
 /*License: This stylesheet cannot be resold by anyone else except Enabled and Cosmin Cotor*/
-/***** samsung debug
+
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,900);
-****/
+
 
 
 /* CSS Document */
@@ -85,7 +85,7 @@ span > a {
 a > span {
 	display: inline;
 }
-
+***end samsung debug**/
 a {
 	text-decoration: none;
 }
@@ -93,7 +93,7 @@ a {
 a:hover {
 	text-decoration: none;
 }
-***end samsung debug**/
+
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 	display: inline;
