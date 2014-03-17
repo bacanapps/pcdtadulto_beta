@@ -16,7 +16,7 @@
 /*////////////////*/
 /*Stylesheet Reset*/
 /*////////////////*/
-/*// samsung debug
+
 * {
 	appearance:normal;
 	-webkit-appearance: none;
@@ -64,7 +64,7 @@ p {
 	font-size:12px;
 	letter-spacing:0px;
 }
-
+/*// samsung debug
 p > a {
 	display: inline;
 	text-decoration: none;
@@ -93,11 +93,12 @@ a {
 a:hover {
 	text-decoration: none;
 }
+***end samsung debug**/
 
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 	display: inline;
 }
-***end samsung debug**/
+
 
 table {
 	border-collapse: separate;
