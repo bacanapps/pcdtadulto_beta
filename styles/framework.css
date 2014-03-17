@@ -16,7 +16,7 @@
 /*////////////////*/
 /*Stylesheet Reset*/
 /*////////////////*/
-
+/*// samsung debug
 * {
 	appearance:normal;
 	-webkit-appearance: none;
@@ -97,6 +97,7 @@ a:hover {
 h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
 	display: inline;
 }
+***end samsung debug**/
 
 table {
 	border-collapse: separate;
