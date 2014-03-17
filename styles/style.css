@@ -24,7 +24,7 @@ body {
 	padding-bottom:15px;
 
 }
-/* samsung debug 3
+
 .page-sidebar{
 	background-image:url(../images/misc/menu-bg.png);
 	background-repeat:repeat;
@@ -39,7 +39,7 @@ body {
 	overflow:hidden;
 	position:fixed;
 }
-
+/* samsung debug 3
 .page-sidebar-scroll{
 	z-index:2;
 	width:300px;
