@@ -64,7 +64,7 @@ p {
 	font-size:12px;
 	letter-spacing:0px;
 }
-/*** samsung debug
+
 p > a {
 	display: inline;
 	text-decoration: none;
@@ -85,7 +85,7 @@ span > a {
 a > span {
 	display: inline;
 }
-***end samsung debug**/
+
 a {
 	text-decoration: none;
 }
