@@ -32,7 +32,7 @@ body {
 	width:400px;
 	display:block;
 	position:absolute;
-	z-index:2;
+	z-index:2 !important;
 	top:0px;
 	left:0px;
 	bottom:0px;
@@ -42,11 +42,13 @@ body {
 
 .page-sidebar-scroll{
 	z-index:2 !important;
+	position:relative;
     width:300px;
     overflow: scroll;
     overflow-x: hidden;
 	height:100%;
-}
+	
+	}
 
 
 
