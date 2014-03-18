@@ -421,7 +421,7 @@ a{
 .highlight-magenta{	  background-color:#8e44ad;	}
 .highlight-dark{		 background-color:#2c3e50;	}
 .highlight-yellow{	   background-color:#f1c40f;	}
-.highlight-red{		  background-color:#c0392b;	}
+.highlight-red{		  background-color:#bf311b;	}
 .highlight-orange{	   background-color:#e67e22;	}
 
 /*///////*/
@@ -527,7 +527,7 @@ a{
 .button-yellow{			  background-color:#f1c40f;	}
 .button-yellow:active{	   background-color:#c3a321;	}
 
-.button-red{				 background-color:#c0392b;	}
+.button-red{				 background-color:#bf311b;	}
 .button-red:active{		  background-color:#932d23;	}
 
 .button-orange{			  background-color:#e67e22;	}
@@ -1137,7 +1137,7 @@ table tr:hover td{
 }
 
 .red-chart{
-	background-color:#c0392b;
+	background-color:#bf311b;
 	margin:3px;
 	height:14px;
 	opacity:0.9;
@@ -1186,7 +1186,7 @@ table tr:hover td{
 /*//////////////////*/
 
 .red-notification{
-	background-color:#c0392b;
+	background-color:#bf311b;
 	color:#FFFFFF;	
 }
 
@@ -1248,7 +1248,7 @@ table tr:hover td{
 }
 
 .static-notification-red{
-	/*background-color:#c0392b;
+	/*background-color:#bf311b;
 	background-color:#bf311b;*/
 	background-color:#f2cebc;
 	color:#bf311b;
@@ -1413,7 +1413,7 @@ table tr:hover td{
 }
 
 .deploy-toggle-3 em{
-	background-color:#c0392b;
+	background-color:#bf311b;
 	position:absolute;
 	transition: 0.1s ease-out;
 	right:15px;
