@@ -36,7 +36,7 @@ body       {  background:#e7e7e7;}
               background:#000;
               transition:.25s ease-out;}
 
-a.selected  {  background:#93352b;
+a.selected  {  background:#bf311b;
                color:#fff !important;}
 
 #small     {  font-size:10px !important;}
