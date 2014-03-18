@@ -41,7 +41,7 @@ body {
 }
 
 .page-sidebar-scroll{
-	/*z-index:2;*/
+	z-index:2;
 	 /*  width:300px;*/
   overflow: scroll;
    overflow-x: hidden;
