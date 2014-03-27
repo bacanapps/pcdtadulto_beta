@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+		  .zoomProps{	  
+			   height: 240px;
+            width: 230px;
+            position:absolute;
+		  }
+	
+          #zoomwrapper {
+            height: 377px;
+            width: 600px;
+            overflow: hidden;
+     
+          }
+
+		  
+
+	
+		  
