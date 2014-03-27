@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--
+Example search page for the JavaScript option for 
+Wrensoft Zoom Search Engine (http://www.wrensoft.com/zoom/)
+
+NOTE: You should only use the JavaScript version if server-side
+processing is not available. For example, for CD-ROM/DVD distributions, 
+local Intranet networks, etc.
+
+Client-side searching requires the entire index file to be downloaded
+to the client, which is not an issue locally, or if your website is small,
+but can be very slow for larger websites, over the Internet.
+
+Hints:
+1. Make sure you have indexed your website with the Zoom Indexer application
+   with the "Javascript" option checked in the Configuration dialog. It
+   should produce several files (including "zoom_index.js") in your selected 
+   output directory.
+2. Put this file (search.html), search.js, zoom_index.js, and other files 
+   listed at the end of indexing (as "Required files") in the same folder.
+3. Copy or upload these files to your distribution medium (CD, server, etc)
+3. Customise this page as you see fit. You can also put a search form on the
+   other pages of your site (or navigation menus, etc.). See this FAQ:
+   http://www.wrensoft.com/zoom/support/faq_howto.html#simpleform
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<title>Example search page for Zoom Search Engine (JavaScript version)</title>
+	<script language="JavaScript" src="settings.js"></script>
+	<script language="JavaScript" src="search.js"></script>
+	<!-- You can change the fonts, text colors, and styles of your search results with the CSS below -->
+<style type="text/css">
+body { color:#000;}
+ .highlight { background: #FFFF40; }
+ .searchheading { font-size: 120%; font-weight: bold; color:red; clear:both; float:left;clear:right;margin-top:.5em;}
+ .summary { font-size: 120%; font-style: normal; clear:left;float:left;padding-bottom:.5em;}
+ .suggestion { font-size: 100%; }
+ .results { font-size: 100%; margin-top:.5em;}
+ .category { color: #999999; clear:both;float:right;}
+ .sorting { text-align: right; }
+.result_title { font-size: 120%; } 
+ .description { font-size: 100%; color: #000000;}
+ .context { font-size: 100%; }
+ .infoline { font-size: 110%; font-style: italic; color: #000;padding-top:.5em;padding-bottom:1em;border-bottom:2px dotted gray;}
+.zoom_searchform { font-size: 1em; }
+ .zoom_results_per_page { font-size: 1em; padding: .3em;margin-left: 0px; clear:left; float:left;}
+ .zoom_match { font-size: 100%; margin-left: 0px; clear:left; float:left;} 
+ .zoom_categories { font-size: 1em; padding:.3em; }
+ .zoom_categories ul { display: inline; margin: 0px; padding: .3em;}
+ .zoom_categories li { display: inline; margin-left: 15px; list-style-type: none; }
+
+ .cat_summary ul { margin: 0px; padding: 0px; display: inline; }
+ .cat_summary li { display: inline; margin-left: 15px; list-style-type: none; }
+input.zoom_button { 
+font-family:Helvetica, Arial, sans-serif; font-size:1.2em;font-weight:bold;
+text-align:left;margin:0;padding:0;float:left; clear:both;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-top:.5em;
+height:3em;width:100%;
+text-align:center; 
+color:#fff;background-color:#333;
+}
+input.zoom_searchbox { height:2em; width:98%;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; font-size:1.5em;
+}
+select {
+width:98%; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+font-size:1.2em;
+} 
+ .result_image { float: left; display: block; }
+ .result_image img { margin: 10px; width: 80px; border: 0px; }
+.result_block { margin-top: 15px; margin-bottom: 15px; clear: left; }
+ .result_altblock { margin-top: 15px; margin-bottom: 15px; clear: left; }
+
+.result_pages { font-size: 2em;line-height:2.0em; color:#666;}
+
+.result_pages a { 
+border:1px solid black;padding:.3em .5em;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;background-color:#ccc;}
+.result_pagescount { font-size: 1em;float:right;}
+
+.searchtime { font-size: 17px; }
+
+.recommended 
+ { 
+ background: #DFFFBF; 
+ border-top: 1px dotted #808080; 
+ border-bottom: 1px dotted #808080; 
+ margin-top: 15px; 
+ margin-bottom: 15px; 
+ }
+ .recommended_heading { float: right; font-weight: bold; }
+ .recommend_block { margin-top: 1em; margin-bottom: 1em; clear: left; } 
+ .recommend_title { font-size: 1px; }
+ .recommend_description { font-size: 1px; color: #008000; }
+ .recommend_infoline { font-size: 15px; font-style: normal; color: #808080;}
+ .recommend_image { float: left; display: block; }
+ .recommend_image img { margin: 10px; width: 80px; border: 0px; }
+</style>    
+</head>
+
+<body onload="if (document.getElementById('zoom_searchbox')) {document.getElementById('zoom_searchbox').focus();}">
+	<h1>Buscar neste site</h1>
+	<p>
+	Digitar uma ou mais palavras-chave para pesquisar.<br />
+	Observação '*' e '?' curingas são suportados.
+	</p>
+	<!-- This is where the search form and results will appear -->
+	<script language="JavaScript">ZoomSearch();</script>
+	<noscript>Você deve ter o JavaScript habilitado.</noscript>
+<script>highlight();</script></body>
+</html>
